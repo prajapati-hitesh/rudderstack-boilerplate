@@ -1,0 +1,55 @@
+{
+  "name": "rudderstack-boilerplate",
+  "type": "module",
+  "version": "1.0",
+  "description": "A Boilerplate project built for web, mobile & API testing using webdriverIO & Pactum",
+  "keywords": [
+    "web",
+    "mobile",
+    "api",
+    "WebdriverIO",
+    "PactumJS",
+    "Chai",
+    "automation"
+  ],
+  "homepage": "https://github.com/prajapati-hitesh/rudderstack-boilerplate#readme",
+  "bugs": {
+    "url": "https://github.com/prajapati-hitesh/rudderstack-boilerplate/issues",
+    "email": "hiteshprajapati1992@gmail.com"
+  },
+  "license": "UNLICENSED",
+  "author": {
+    "name": "Hitesh Prajapati",
+    "email": "hiteshprajapati1992@gmail.com",
+    "url": "https://github.com/prajapati-hitesh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/prajapati-hitesh/rudderstack-boilerplate.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "@babel/register": "^7.23.7",
+    "@faker-js/faker": "^8.3.1",
+    "@types/chai": "^4.3.11",
+    "@wdio/cli": "^8.28.0",
+    "@wdio/cucumber-framework": "^8.28.0",
+    "@wdio/dot-reporter": "^8.28.0",
+    "@wdio/local-runner": "^8.28.0",
+    "@wdio/spec-reporter": "^8.28.0",
+    "chai": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "wdio-cucumberjs-json-reporter": "^5.1.8"
+  },
+  "scripts": {
+    "wdio": "wdio run ./config/wdio.conf.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "pactum": "^3.6.0",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
